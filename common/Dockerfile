@@ -33,6 +33,7 @@ RUN apk add --no-cache --virtual .buildtools npm make gcc g++ linux-headers udev
     pnpm run build && \
     rm -rf node_modules && \
     pnpm install --frozen-lockfile --no-optional --unsafe-perm --prod && \
+    pnpm add https://github.com/howljs/zigbee-herdsman-converters/releases/download/21.12.1/zigbee-herdsman-converters-21.12.1.tgz && \
     # serialport has outdated prebuilds that appear to fail on some archs, force build on target platform
     rm -rf `find ./node_modules/.pnpm/ -wholename "*/@serialport/bindings-cpp/prebuilds" -type d` && \
     pnpm rebuild @serialport/bindings-cpp
