@@ -1,5 +1,5 @@
-## 2.1.1-3
-- Test VSmart
+## 2.1.1-4
+- Add new VSmart devices (HS-SWN200ZB-VNM, HS-SWL400ZB-VNM, HS-SWN100ZB-VNM)
 
 ## 2.1.1-2
 - Test VSmart
