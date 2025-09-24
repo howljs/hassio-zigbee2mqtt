@@ -29,11 +29,12 @@ RUN apk add --no-cache --virtual .buildtools npm make gcc g++ linux-headers udev
     fi; \
     echo "Installed Zigbee2MQTT @ version $(cat /app/dist/.hash)" && \
     cd /app && \
+    npm install -g $(jq -r '.packageManager' package.json) && \
     pnpm install --frozen-lockfile --no-optional --unsafe-perm && \
     pnpm run build && \
     rm -rf node_modules && \
     pnpm install --frozen-lockfile --no-optional --unsafe-perm --prod && \
-    pnpm add https://github.com/howljs/zigbee-herdsman-converters/releases/download/22.1.0/zigbee-herdsman-converters-22.1.0-beta.4.tgz && \
+    pnpm add https://github.com/howljs/zigbee-herdsman-converters/releases/download/25.30.0-beta.1/zigbee-herdsman-converters-25.30.0-beta.1.tgz && \
     # serialport has outdated prebuilds that appear to fail on some archs, force build on target platform
     rm -rf `find ./node_modules/.pnpm/ -wholename "*/@serialport/bindings-cpp/prebuilds" -type d` && \
     pnpm rebuild @serialport/bindings-cpp

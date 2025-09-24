@@ -1,18 +1,38 @@
-## 2.1.1-4
-- Add new VSmart devices (HS-SWN200ZB-VNM, HS-SWL400ZB-VNM, HS-SWN100ZB-VNM)
+## 2.6.1-3
+- Updated Zigbee2MQTT to version [`2.6.1`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/2.6.1)
 
-## 2.1.1-2
-- Test VSmart
+## 2.6.0-1
+- Updated Zigbee2MQTT to version [`2.6.0`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/2.6.0)
+
+## 2.5.1-1
+- Updated Zigbee2MQTT to version [`2.5.1`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/2.5.1)
+
+## 2.5.0-1
+- Updated Zigbee2MQTT to version [`2.5.0`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/2.5.0)
+
+## 2.4.0-1
+- Updated Zigbee2MQTT to version [`2.4.0`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/2.4.0)
+
+## 2.3.0-1
+- Updated Zigbee2MQTT to version [`2.3.0`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/2.3.0)
+
+## 2.2.1-1
+- Updated Zigbee2MQTT to version [`2.2.1`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/2.2.1)
+
+## 2.2.0-1
+- Updated Zigbee2MQTT to version [`2.2.0`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/2.2.0)
+
+## 2.1.3-1
+- Updated Zigbee2MQTT to version [`2.1.3`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/2.1.3)
+
+## 2.1.2-1
+- Updated Zigbee2MQTT to version [`2.1.2`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/2.1.2)
 
 ## 2.1.1-1
 - Updated Zigbee2MQTT to version [`2.1.1`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/2.1.1)
 
 ## 2.1.0-1
 - Updated Zigbee2MQTT to version [`2.1.0`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/2.1.0)
-
-## 2.0.0-3
-
-- Add VSmart
 
 ## 2.0.0-2
 
